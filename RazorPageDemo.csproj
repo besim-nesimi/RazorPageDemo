@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Pages\List\**" />
+    <Compile Remove="Pages\Objects\**" />
+    <Compile Remove="Pages\Object\**" />
+    <Compile Remove="Pages\Test\**" />
+    <Content Remove="Pages\List\**" />
+    <Content Remove="Pages\Objects\**" />
+    <Content Remove="Pages\Object\**" />
+    <Content Remove="Pages\Test\**" />
+    <EmbeddedResource Remove="Pages\List\**" />
+    <EmbeddedResource Remove="Pages\Objects\**" />
+    <EmbeddedResource Remove="Pages\Object\**" />
+    <EmbeddedResource Remove="Pages\Test\**" />
+    <None Remove="Pages\List\**" />
+    <None Remove="Pages\Objects\**" />
+    <None Remove="Pages\Object\**" />
+    <None Remove="Pages\Test\**" />
+  </ItemGroup>
+
+</Project>

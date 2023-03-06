@@ -1,0 +1,9 @@
+﻿@page
+@model RazorPageDemo.Pages.Object.IndexModel
+@{
+}
+
+@if(Model.SelectedDog != null) {
+	<h1>@Model.SelectedDog.Name</h1>
+	<em>@Model.SelectedDog.Id</em>
+}

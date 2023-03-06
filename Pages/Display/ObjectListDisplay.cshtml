@@ -1,0 +1,17 @@
+﻿@page
+@model RazorPageDemo.Pages.Display.ObjectListDisplayModel
+@{
+}
+
+<ul>
+@foreach(var cat in Model.Cats) {
+	<li>
+		<h2>
+			@cat.Name
+		</h2>
+		<em>
+			Cuteness: @cat.Cuteness
+		</em>
+	</li>
+}
+</ul>

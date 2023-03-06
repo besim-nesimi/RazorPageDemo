@@ -1,0 +1,20 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+@*<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+    <div><a asp-page="/Test/Details" asp-route-name="Doggo">The name "Doggo" is of datatype string that goes into Details page.</a></div>
+    <div><a asp-page="/List/Index">This is a list of strings sent to the /List/Index page.</a></div>
+    <div><a asp-page="/Object/Index" asp-route-index="3">This is a specific object from a list sent to the /Object/Index page.</a></div>
+    <div><a asp-page="/Objects/Index">This is a list of objects sent to the /Objects/Index page.</a></div>
+</div>*@
+
+<div><a asp-page="/Display/StringDisplay" asp-route-displaystring="Lavett festival">Link to String Display</a></div>
+<div><a asp-page="/Display/ListDisplay">Link to List Display</a></div>
+<div><a asp-page="/Display/ObjectListDisplay">Link to Object List Display</a></div>
+<div><a asp-page="/Display/SpecificObjectDisplay" asp-route-index="3">Link to Specific Object Display</a></div>
